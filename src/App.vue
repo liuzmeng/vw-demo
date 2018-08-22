@@ -1,20 +1,12 @@
 <template>
   <div id="app">
-    <img class="logo" alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="nav">
+      <router-link class="nav-menu" to="/">Home</router-link> |
+      <router-link class="nav-menu" to="/about">About</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
-
-<script>
-  import HelloWorld from './components/HelloWorld.vue'
-
-  export default {
-    name: 'app',
-    components: {
-      HelloWorld
-    }
-  }
-</script>
 
 <style>
   #app {
@@ -25,9 +17,11 @@
     color: #2c3e50;
     margin-top: 60px;
   }
-  .logo {
-    width: 400px;
-    height: 400px;
+  #nav {
+    font-size: 40px;
+  }
+  .nav-menu {
+    font-size: 40px;
   }
 
   *, *::before, *::after {
