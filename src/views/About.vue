@@ -10,7 +10,7 @@
           <div class="record-validity">有效期至 2020-07-03</div>
         </div>
         <div class="record-state">
-          <div class="state-box"><span class="btn-orange list-use gradient">使用</span></div>
+          <span class="btn-orange list-use gradient">使用</span>
         </div>
       </li>
     </ul>
@@ -82,16 +82,10 @@
   }
   .record-state {
     float: right;
-    display: table;
-    height: 20px;
-  }
-  .state-box {
-    display: table-cell;
-    width: 140px;
-    text-align: center;
-    vertical-align: middle;
+    margin-top: 70px;
   }
   .btn-orange {
+    display: inline-block;
     height: 8px;
     line-height: 8px;
     margin: 0 auto;
@@ -100,7 +94,7 @@
     color: #ffffff;
     border-radius: 100px;
     font-size: 32px;
-    background-color: #FF7E00;
+    background-color: #42b983;
     cursor: pointer;
   }
   .list-use {
@@ -112,6 +106,6 @@
     border-radius: 48px;
   }
   .gradient {
-    background-image: linear-gradient(90deg, #FFA400 0%, #FF7E00 100%);
+    background-image: linear-gradient(90deg, #4cd395 0%, #369468 100%);
   }
 </style>
