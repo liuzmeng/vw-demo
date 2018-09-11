@@ -22,7 +22,7 @@
     name: 'about',
     data() {
       return {
-        lists: [1, 2, 3, 4, 5, 6, 7, 8]
+        lists: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
       }
     }
   }
@@ -32,6 +32,7 @@
   .list {
     width: 100%;
   }
+
   .record-item {
     display: block;
     width: 100%;
@@ -42,14 +43,16 @@
     border-bottom: 1px solid #F2F2F2;
     cursor: pointer;
   }
+
   .image-wrapper {
     display: inline-block;
-    width: 140px;
+    width: 120px;
     height: 120px;
     margin: 40px 0;
     text-align: center;
     vertical-align: middle;
   }
+
   .record-image {
     display: block;
     width: 100%;
@@ -59,6 +62,7 @@
     background-size: contain;
     background-image: url("../assets/logo.png");
   }
+
   .record-content {
     display: inline-block;
     max-width: 340px;
@@ -67,23 +71,27 @@
     padding: 0 20px;
     vertical-align: middle;
   }
+
   .record-title {
     width: 100%;
     line-height: 36px;
-    font-size: 30px;
+    font-size: 32px;
     color: #333333;
   }
+
   .record-validity {
     width: 100%;
-    margin-top: 28px;
+    margin-top: 24px;
     line-height: 30px;
     font-size: 24px;
     color: #999999;
   }
+
   .record-state {
     float: right;
     margin-top: 70px;
   }
+
   .btn-orange {
     display: inline-block;
     height: 8px;
@@ -97,6 +105,7 @@
     background-color: #42b983;
     cursor: pointer;
   }
+
   .list-use {
     width: 140px;
     height: 60px;
@@ -105,6 +114,7 @@
     font-size: 28px;
     border-radius: 48px;
   }
+
   .gradient {
     background-image: linear-gradient(90deg, #4cd395 0%, #369468 100%);
   }

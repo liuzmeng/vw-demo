@@ -20,7 +20,7 @@ module.exports = {
       minPixelValue: 2,               // 小于或等于`2px`不转换为视窗单位
       mediaQuery: false               // 允许在媒体查询中转换`px`
     },
-    "postcss-viewport-units": {},     // Automatically append content property for viewport-units-buggyfill.
+    // "postcss-viewport-units": {},     // Automatically append content property for viewport-units-buggyfill.
     "cssnano": {
       preset: "advanced",
       autoprefixer: false,            // 禁用 autoprefixer，与其他插件重复
